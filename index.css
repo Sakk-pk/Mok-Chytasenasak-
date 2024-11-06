@@ -1,0 +1,52 @@
+body {
+    background: grey;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    width: 500px;
+    height: auto;
+    background-color: white;
+    margin: 30px 100px 0px 100px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.button {
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+    
+}
+#button1{
+    background-color: rgb(107, 239, 107);
+}
+#button1:hover{
+    background-color: hsl(160, 83%, 27%);
+    color: white;
+}
+#button2{
+    background-color: hsl(39, 93%, 73%);
+    
+}
+#button2:hover{
+    background-color: orange;
+    color: white;   
+}
+#button3{
+    background-color: hsl(300, 94%, 59%);
+}
+#button3:hover{
+    background-color: purple;
+    color:white;
+}
+button:hover {
+    cursor: pointer;
+}
